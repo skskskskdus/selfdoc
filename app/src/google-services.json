@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385457984150",
+    "project_id": "selfdoc-432dd",
+    "storage_bucket": "selfdoc-432dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385457984150:android:5f20ad6fbd879393ff28b7",
+        "android_client_info": {
+          "package_name": "com.example.application_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385457984150-ctl4qdk5dljikgvqmids2a9prbrktuhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHAz1WJodBGty1hvqw2X8Cv4qxlBLJJ-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385457984150-ctl4qdk5dljikgvqmids2a9prbrktuhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
