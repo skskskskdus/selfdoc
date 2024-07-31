@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="@drawable/loding_01"
+    tools:context=".Activity_loading1">
+
+    <LinearLayout
+        android:id="@+id/layout_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/textView_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="-200dp"
+            android:gravity="center"
+            android:text="셀 프 케 어, 셀 프 닥 !"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView_01"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.208"
+            tools:ignore="NotSibling" />
+
+        <ImageButton
+            android:id="@+id/imagebutton"
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="-250dp"
+            android:layout_marginTop="-110dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView_01"
+            app:layout_constraintTop_toBottomOf="@+id/textView_01"
+            app:layout_constraintVertical_bias="0.35"
+            app:srcCompat="@drawable/selfdox_icon"
+            tools:ignore="NotSibling"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
